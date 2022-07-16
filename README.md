@@ -11,3 +11,6 @@ Then, you can start the StorageDriveApplication.java or in terminal you can type
 - ```mvn spring-boot:run```
 Then the embedded server Tomcat, will start the application on ```port 9000```
 
+## ScreenView 😜
+https://github.com/Joamofa1/brukefiler/blob/main/Screen.mov
+
