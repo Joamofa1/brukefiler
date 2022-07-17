@@ -3,7 +3,7 @@
 # How to install and run app:
 
 - Using terminal clone this repo by this command:
-git clone
+- git clone
 ```https://github.com/Joamofa1/brukefiler```
 - Once the files is in your system, you can open it in IDE of your choice with Maven.
 - In the terminal of IDE, type:
