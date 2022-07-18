@@ -17,7 +17,7 @@ Then the embedded server Tomcat, will start the application on ```port 9000```
 
 
 
-# schemma Database
+# schema Database
 
 ``` CREATE TABLE IF NOT EXISTS USERS (
   userId INT PRIMARY KEY auto_increment,
