@@ -15,3 +15,27 @@ Then the embedded server Tomcat, will start the application on ```port 9000```
 ## ScreenView 😜
 ![screen.mp4](https://github.com/Joamofa1/brukefiler/blob/main/Screen.mp4)
 
+
+
+# schemma Database
+
+``` CREATE TABLE IF NOT EXISTS USERS (
+  userId INT PRIMARY KEY auto_increment,
+  username VARCHAR(20),
+  salt VARCHAR,
+  password VARCHAR,
+  firstname VARCHAR(20),
+  lastname VARCHAR(20)
+);
+
+CREATE TABLE IF NOT EXISTS NOTE (
+    noteId INT PRIMARY KEY auto_increment,
+    noteTitle VARCHAR(20),
+    noteDescription VARCHAR (1000),
+    userid INT,
+    foreign key (userid) references USERS(userid)
+);
+
+
+
+ ```
