@@ -26,7 +26,7 @@ Then the embedded server Tomcat, will start the application on ```port 9000```
   password VARCHAR,
   firstname VARCHAR(20),
   lastname VARCHAR(20)
-);
+)
 
 CREATE TABLE IF NOT EXISTS NOTE (
     noteId INT PRIMARY KEY auto_increment,
